@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="flex flex-nowrap">
+        <div class="p-2 bg-yellow-200">This block 1 - quite long</div>
+        <div class="p-2 bg-blue-200">Block 2 is here</div>
+        <div class="p-2 bg-green-200">Block 3 with some more content</div>
+        <div class="p-2 bg-red-200">Block 4 red is color</div>
+    </div>
+    <div class="flex mt-8 justify-between">
+        <div class="p-2 bg-yellow-200">Block 1</div>
+        <div class="p-2 bg-blue-200">Block 2</div>
+        <div class="p-2 bg-green-200">Block 3</div>
+        <div class="p-2 bg-red-200">Block 4</div>
+    </div>
+    <div class="flex mt-8 justify-between items-center">
+        <div class="p-2 bg-yellow-200">Block 1</div>
+        <div class="p-2 bg-blue-200 text-5xl">Block 2</div>
+        <div class="p-2 bg-green-200">Block 3</div>
+        <div class="p-2 bg-red-200">Block 4</div>
+    </div>
+    <div class="flex mt-8 flex-col bg-gray-300 h-80 justify-between items-center">
+        <div class="p-2 bg-yellow-200">Block 1</div>
+        <div class="p-2 bg-blue-200 text-5xl">Block 2 Block 2</div>
+        <div class="p-2 bg-green-200">Block 3</div>
+        <div class="p-2 bg-red-200">Block 4</div>
+    </div>
+  
+    <div class="flex mt-8 ml-8 flex-col bg-indigo-50 h-80 w-80 justify-between p-4 rounded-xl border border-indigo-200">
+        <div class="flex justify-between items-baseline">
+           <div class="rounded-xl p-4 bg-yellow-50 font-bold text-2xl">22,5º</div>
+           <div class="rounded-xl p-4 bg-blue-50 text-5xl">Chuva</div>
+        </div>
+        <div class="flex justify-between items-baseline">
+           <div class="rounded-xl p-4 bg-green-50 text-sm italic">19:45</div>
+           <div class="rounded-xl p-4 bg-red-50 text-xl">Rio de Janeiro</div>
+        </div>
+    </div>
+    <div class="mt-8 h-80 flex flex-wrap bg-indigo-300">
+        <div class="p-2 bg-yellow-200">This block 1 - quite long</div>
+        <div class="p-2 bg-blue-200">Block 2 is here</div>
+        <div class="p-2 bg-green-200">Block 3 with some more content</div>
+        <div class="p-2 bg-red-200">Block 4 red is color</div>
+    </div>
+    <div class="mt-8 h-80 flex flex-wrap bg-indigo-100 justify-between items-baseline content-evenly">
+        <div class="p-2 bg-yellow-200">This block 1 - quite long</div>
+        <div class="p-2 bg-blue-200 text-5xl">Block 2 is here</div>
+        <div class="p-2 bg-green-200 text-3xl">Block 3 with some more content</div>
+        <div class="p-2 bg-red-200 text-sm">Block 4 red is color</div>
+    </div>
+    <div class="mt-8 h-80 flex flex-wrap bg-indigo-100 justify-center items-baseline content-evenly">
+        <div class="p-2 bg-yellow-200">This block 1 - quite long</div>
+        <div class="p-2 bg-blue-200 text-5xl">Block 2 is here</div>
+        <div class="p-2 bg-green-200 text-3xl">Block 3 with some more content</div>
+        <div class="p-2 bg-red-200 text-sm">Block 4 red is color</div>
+    </div>
+    <div class="mt-8 h-80 flex flex-wrap bg-indigo-100 justify-center items-stretch content-evenly">
+        <div class="p-2 bg-yellow-200">This block 1 - quite long</div>
+        <div class="p-2 bg-blue-200 text-5xl">Block 2 is here</div>
+        <div class="p-2 bg-green-200 text-7xl">Block 3</div>
+        <div class="p-2 bg-red-200 text-sm">Block 4 red is color</div>
+    </div>
+
+    <div class="mt-12 bg-gray-200 h-80 flex flex-col justify-between items-start">
+        <div class="p-2 bg-yellow-200">This block 1 - quite long</div>
+        <div class="p-2 bg-blue-200 text-5xl">Block 2 is here</div>
+        <div class="p-2 bg-green-200">Block 3 with some more content</div>
+        <div class="p-2 bg-red-200 self-end">Block 4 red is color</div>
+    </div>
+
+    <div class="mt-12 bg-gray-200 h-80 flex flex-col justify-between items-stretch">
+        <div class="p-2 bg-yellow-200">This block 1 - quite long</div>
+        <div class="p-2 bg-blue-200 text-5xl self-start">Block 2 is here</div>
+        <div class="p-2 bg-green-200">Block 3 with some more content</div>
+        <div class="p-2 bg-red-200 self-end">Block 4 red is color</div>
+    </div>
+
+    <div class="mt-12 bg-gray-200 flex justify-between items-center">
+        <div class="p-2 bg-yellow-200">Block 1</div>
+        <div class="p-2 bg-blue-200 text-5xl self-start">Block 2</div>
+        <div class="p-2 bg-green-200">Block 3</div>
+        <div class="p-2 bg-red-200 self-end">Block 4</div>
+    </div>
+
+    <div class="mt-12 bg-gray-200 h-24 flex">
+        <div class="bg-yellow-200 flex-shrink">Block 1 com mais texto de exemplo</div>
+        <div class="bg-blue-200 flex-shrink-0">Block 2 com mais texto também</div>
+        <div class="bg-green-200 flex-shrink-0">Block 3</div>
+        <div class="bg-red-200 flex-shrink">Block 4</div>
+    </div>
+
+    <div class="mt-12 bg-gray-200 h-20 flex justify-between items-center">
+        <div class="mx-2 w-16 h-16 bg-cyan-400 rounded-full flex-shrink-0"></div>           
+        <div class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero quidem ipsum quisquam qui laborum neque saepe libero sapiente molestiae.
+    </div>
+    </div>
+
+    <div class="mt-12 bg-gray-200 h-20 flex justify-center items-center text-center">
+        <div class="bg-red-500 text-white rounded-xl flex items-center justify-center mx-2 px-4"> 
+            <span class="font-bold text-md">12:45 PM</span> </div>          
+            <div class="text-left px-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero quidem ipsum quisquam qui laborum neque saepe libero sapiente molestiae.
+            </div>
+    </div>
+
+    <div class="mt-12 bg-gray-200 h-20 flex justify-center items-center text-center">
+        <div class="bg-red-500 text-white rounded-xl flex items-center justify-center mx-2 px-4 flex-shrink-0"> 
+            <span class="font-bold text-md">12:45 PM</span> </div>          
+            <div class="text-left px-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero quidem ipsum quisquam qui laborum neque saepe libero sapiente molestiae.
+            </div>
+    </div>
+
+    <div class="mt-12 bg-gray-200 h-24 flex">
+        <div class="bg-yellow-200 flex-1">Block 1 com mais texto de exemplo</div>
+        <div class="bg-blue-200 flex-1">Block 2 com mais texto também</div>
+        <div class="bg-green-200 flex-1">Block 3</div>
+        <div class="bg-red-200 flex-1">Block 4</div>
+    </div>
+
+    <div class="mt-12 bg-gray-200 h-24 flex">
+        <div class="bg-yellow-200 basis-1/4">Block 1 (1/4) com mais texto de exemplo</div>
+        <div class="bg-blue-200  basis-1/4">Block 2 (1/4) com mais texto também</div>
+        <div class="bg-green-200  basis-1/2">Block 3 (1/2) </div>
+    </div>
+
+    <div class="mt-12 bg-gray-200 h-24 flex">
+        <div class="bg-yellow-200 basis-1/4 order-none md:order-first">Logo</div>
+        <div class="bg-blue-200  basis-1/4 order-first md:order-none"></div>
+        <div class="bg-green-200  basis-1/2">Itens do Menu</div>
+    </div>
+
+    <p class="mt-12"> Espaço entre os elementos x</p>
+    <div class="bg-gray-200 h-24 flex space-x-3">
+        <div class="bg-yellow-200 basis-1/4 order-none md:order-first">Logo</div>
+        <div class="bg-blue-200  basis-1/4">Pesquisa</div>
+        <div class="bg-green-200  basis-1/2">Itens do Menu</div>
+    </div>
+
+    <p class="mt-12"> Espaço entre os elementos y</p>
+    <div class="bg-gray-200 h-24 flex flex-col space-y-3">
+        <div class="bg-yellow-200 basis-1/4 order-none md:order-first">Logo</div>
+        <div class="bg-blue-200  basis-1/4">Pesquisa</div>
+        <div class="bg-green-200  basis-1/2">Itens do Menu</div>
+    </div>
+
+
+
+    <div class="mt-[500px]">
+       ...
+    </div>
+
+</body>
+</html> 
