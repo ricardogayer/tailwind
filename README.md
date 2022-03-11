@@ -26,6 +26,9 @@ touch tailwind.css
 @tailwind components;
 ```
 
+Instale no VS Code a extensão "PostCSS Language Support".
+Esta extensão irá compreender a sintaxe @tailwind corretamente.
+
 Substituir o conteúdo do arquivo **tailwind.config.js** pelo conteúdo abaixo:
 
 ```js
