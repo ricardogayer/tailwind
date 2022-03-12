@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>TailwindCSS Grid</title>
+</head>
+<body>  
+    <div class="grid grid-cols-1 sm:grid-cols-3 gap-6 p-6">
+        <div class="video h-36 order-last sm:order-first">Free</div>
+        <div class="video h-36">Basic</div>
+        <div class="video h-36 order-first sm:order-last">Advanced</div>
+    </div>
+
+<!-- Blog do Caco -->
+<div class="grid grid-cols-1 md:grid-cols-3 items-start gap-6 p-6">
+    <div class="col-span-2">
+        <div>
+            <h2 class="text-xl font-bold"> Artigo # 1</h2>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam voluptas debitis, quas facilis consequatur, temporibus eos possimus, alias labore dolor rerum ad modi excepturi recusandae fugit illum vel in! Itaque!
+            Aut voluptates saepe architecto aspernatur, veniam ex iusto, rerum mollitia reiciendis ratione quasi nesciunt voluptate. Illum neque laborum molestiae possimus dignissimos incidunt dolores provident. Voluptatem, reprehenderit labore. Necessitatibus, accusantium consequatur?
+            Provident eaque, magni sed voluptatem quibusdam  earum totam mollitia! Molestiae accusantium aperiam id excepturi illo facilis tempore non mollitia repellat obcaecati laudantium libero ad vero quae tenetur, error ut?</p>
+        </div>
+        <div class="">
+            <h2 class="text-xl font-bold"> Artigo # 2</h2>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam voluptas debitis, quas facilis consequatur, temporibus eos possimus, alias labore dolor rerum ad modi excepturi recusandae fugit illum vel in! Itaque!
+            Aut voluptates saepe architecto aspernatur, veniam ex iusto, rerum mollitia reiciendis ratione quasi nesciunt voluptate. Illum neque laborum molestiae possimus dignissimos incidunt dolores provident. Voluptatem, reprehenderit labore. Necessitatibus, accusantium consequatur?
+            Provident eaque, magni sed voluptatem quibusdam  earum totam mollitia! Molestiae accusantium aperiam id excepturi illo facilis tempore non mollitia repellat obcaecati laudantium libero ad vero quae tenetur, error ut?</p>
+        </div>
+        <div class="">
+            <h2 class="text-xl font-bold"> Artigo # 3</h2>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam voluptas debitis, quas facilis consequatur, temporibus eos possimus, alias labore dolor rerum ad modi excepturi recusandae fugit illum vel in! Itaque!
+            Aut voluptates saepe architecto aspernatur, veniam ex iusto, rerum mollitia reiciendis ratione quasi nesciunt voluptate. Illum neque laborum molestiae possimus dignissimos incidunt dolores provident. Voluptatem, reprehenderit labore. Necessitatibus, accusantium consequatur?
+            Provident eaque, magni sed voluptatem quibusdam  earum totam mollitia! Molestiae accusantium aperiam id excepturi illo facilis tempore non mollitia repellat obcaecati laudantium libero ad vero quae tenetur, error ut?</p>
+        </div>
+    </div>
+    <div class="space-y-6 order-first md:order-last">
+    <div class="col-start-3 bg-gray-300 p-4 rounded-xl">
+        <h3 class="font-bold "> Actions </h3>
+        <ul class="">
+            <li>
+                Cadastro
+            </li>
+        </ul>
+        <ul>
+            <li>
+                Consulta
+            </li>
+        </ul>
+        <ul>
+            <li>
+                Relatório
+            </li>
+        </ul>
+    </div>
+    <div class="col-start-3 bg-gray-300 p-4 rounded-xl">
+        <h3 class="font-bold"> Related Stuffs </h3>
+        <ul>
+            <li>
+                Produtos
+            </li>
+        </ul>
+        <ul>
+            <li>
+                Serviços
+            </li>
+        </ul>
+    </div>
+    </div>
+
+</div>
+</body>
+</html>
