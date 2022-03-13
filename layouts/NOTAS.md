@@ -143,3 +143,10 @@ Equivalente ao justify-*, porém para o eixo Y.
 ### self-* p/ grid
 
 ### place-selft-*
+
+## Forms - @tailwindcss/forms
+
+```ssh
+npm install -D @tailwindcss/forms
+```
+

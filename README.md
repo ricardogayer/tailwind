@@ -8,6 +8,7 @@ npm init -y
 
 ```sh
 npm install -D tailwindcss autoprefixer postcss-cli
+npm install -D @tailwindcss/forms
 ```
 
 ```sh
@@ -39,7 +40,7 @@ module.exports = {
   theme: {
     extend: {},
   },
-  plugins: [],
+   plugins: [require('@tailwindcss/forms')],
 }
 ```
 
@@ -67,3 +68,4 @@ Executar em uma outra janela o comando para compilação em tempo real (JIT)
 ```sh
 npx tailwindcss -i tailwind.css -o ./layouts/styles.css --watch
 ```
+
