@@ -2,6 +2,8 @@
 
 ## Instalação
 
+Fazer a instalação do plug-in Tailwind CSS IntelliSense (Tailwind Labs).
+
 ```sh
 npm init -y
 ```
