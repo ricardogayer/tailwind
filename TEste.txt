@@ -1,0 +1,17 @@
+<a id="a-logica-do-investimento-em-startup" class="link" data-link="https://fast.player.liquidplatform.com/pApiv2/embed/5ea5dc6084c8253bbb282fb10f865ac9/97b1975acbc2f0e2e12b3e9153d48ded" data-src="a-logica-do-investimento-em-startup">
+                                                                                            <div class="row">
+                                                    <div class="col-md-4 col-xs-4">
+                                                        <img class="img img-responsive" src="https://s3.us-east-2.amazonaws.com/startse-educacao/assets/img/thumbnail/935f7-a_logica_do_investimento_em_start_up.jpg">  
+                                                    </div>
+                                                    <div class="col-md-8 no-padding-left">
+                                                        <p class="small">
+                                                            <i class="fa fa-clock-o nao-visto" aria-hidden="true"></i> 
+                                                            <b class="nome-video-lista">Aula 2: A lógica do Investimento em Startups</b>
+                                                            <span class="nome-professor-lista hidden">Marco Poli</span>
+                                                            <span class="nome-descricao-lista hidden">
+	A lógica do Investimento em Startups
+</span>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </a>
